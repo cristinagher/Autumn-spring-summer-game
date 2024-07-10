@@ -1,1 +1,22 @@
+@use '../mixins/pseudo.scss' as *;
+@use '../mixins/hover.scss' as *;
+@use '../mixins/responsive.scss' as *;
 
+
+.score-title {
+    font-size: 32px;
+}
+.number {
+    font-size: 32px;
+}
+.vs {
+    font-size: 32px;
+}
+.choose {
+    font-size: 32px;
+    text-align: center;
+}
+.season-text {
+    font-size: 32px;
+    text-align: center;
+}

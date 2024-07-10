@@ -3,4 +3,50 @@
 @use '../mixins/responsive.scss' as *;
 
 
+.score {
+    width: 800px;
+    height: 200px;
+    border: 6px solid #edb05f;
+    border-radius: 36px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.score__container {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #edb05f;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seasons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.season-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+}
+.season{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #edaf5f9b;
+    border-radius: 24px;
+    overflow: hidden;
+
+    &:hover {
+        width: 270px;
+        height: 270px;
+        transition: 1s;
+    }
+}
