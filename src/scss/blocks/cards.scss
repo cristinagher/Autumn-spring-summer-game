@@ -45,8 +45,10 @@
     overflow: hidden;
 
     &:hover {
-        width: 270px;
-        height: 270px;
-        transition: 1s;
+        width: 230px;
+        height: 230px;
+        border-color: #edb05f;
+        transition: transform 1s;
+        cursor: pointer;
     }
 }
